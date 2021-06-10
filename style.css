@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Tahoma;
+  background: #eee;
+
+}
+/* form {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+form > div {
+  padding: 5px 0;
+}
+form input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+form label {
+  position: relative;
+  padding-left: 25px;
+}
+form label::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #0075ff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+}
+form input[type="radio"]:checked + label::after,
+form input[type="radio"]:not(:checked):hover + label::after {
+  content: "";
+  background-color: #0075ff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+form input[type="radio"]:not(:checked):hover + label::after {
+  opacity: 0.2;
+}
+form input[type="radio"]:checked + label {
+  color: #0075ff;
+} */
+
+
+/* prouduct --------------------------- */
+
+
+/* .prouduct{
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #ddd;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.prouduct .number{
+  background-color: #009688;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 26px;
+  transition: 0.6s;
+}
+
+.prouduct h3{
+  margin:  15px 0;
+  font-size: 26px;
+  transition: 0.6s;
+}
+
+.prouduct p{
+  line-height: 1.6;
+   transition: 0.6s;
+   font-size: 18px;
+
+}
+.prouduct:hover .number{
+  box-shadow: 0 0 0 500px #009688;
+}
+
+.prouduct:hover h3,
+.prouduct:hover p{
+color: #fff;
+} */
+
+
+
+/* ribbons */
+
+/* .prouduct{
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.prouduct h2{
+  margin: 0 0 20px;
+  background-color: #009688;
+  color: white;
+  padding: 5px;
+  width: calc(100% + 80px);
+  position: relative;
+  left: -40px;
+
+}
+
+.prouduct h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  border-width: 10px;
+  border-color: #1e302e #1e302e transparent transparent;
+  border-style: solid;
+}
+
+.prouduct h2::after{
+  content: '';
+  position: absolute;
+  right: 0;
+   top: -20px;
+  border-width: 10px;
+  border-color: transparent transparent #1e302e #1e302e ;
+  border-style: solid;
+}
+
+.prouduct p{
+  line-height: 1.6;
+} */
+
+
+/* Tooltip  */
+
+/* button{
+  background: #eee;
+  margin: 100px auto;
+  padding: 10px 20px;
+  display: block;
+  font-size: 40px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+button:focus{
+  outline: none;
+}
+
+button span{
+  background: #333;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  min-width: 240px;
+  padding: 10px 15px;
+  top: -60px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+button span::before{
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #333 transparent transparent transparent;
+}
+  
+button:hover{
+  overflow: visible;
+}
+
+button:hover span{
+  opacity: 1;
+}
+
+[data-position="bottom"] span{
+top: auto;
+bottom: -60px;
+}
+
+[data-position="bottom"] span::before{
+  bottom: auto;
+  top: -20px;
+   border-color: transparent transparent #333 transparent;
+} */
+
+
+
+
+
+/* 
+fill hover  */
+
+/* .fill {
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  width: fit-content;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+.fill:before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-text-fill-color: #ff5722;
+  transition: 0.5s;
+  width: 0;
+  overflow: hidden;
+}
+.fill:hover:before {
+  width: 100%;
+} */
+
+
+
+
+/* .link{
+  color: #8bc34a;
+  text-decoration: none;
+  display: block;
+  border: 2px solid #8bc34a;
+  margin: 20px auto;
+  position: relative;
+  width: 180px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.link::before{
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #8bc34a;
+  transform: translateX(-100%);
+  transition: 0.5s;
+}
+
+.link span{
+  display: block;
+  transition: 0.5s;
+}
+
+.link:hover::before{
+  transform: translateX(0%);
+}
+
+.link:hover span{
+  transform: translateX(100%);
+} */
+
+
+
+/*  Start card */
+
+.login{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(26580.jpg);
+  position: relative;
+}
+
+.card{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.continar{
+width: 400px;
+background-color:rgb(255, 255, 255);
+position: relative;
+padding: 20px;
+border-radius: 4px;
+  
+}
+
+.text{
+  text-align: center;
+  border-bottom: 1px solid rgb(207, 183, 183);
+  margin: 10px;
+}
+
+.text h1{
+  color: #3b74ba;
+  margin-bottom: 10px;
+}
+
+.text p{
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0 10px 0;
+}
+
+.soul{
+  margin-top: 20px;
+}
+
+.dic{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+  /* background: #f6f6f6; */
+  color: #343434;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.dic2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dic h2{
+  margin-top:3px;
+}
+.dic h2,
+.dic span{
+  font-size: 16px;
+}
+
+.continar .imgs{
+    position: absolute;
+    top: -36%;
+    left: 37%;
+}
+
+.continar::after{
+    content: "A+";
+    background: #3b74ba;
+    color: white;
+    position: absolute;
+    bottom: -16.5;
+    right: 26px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"]{
+  outline: none;
+  border: none;
+  padding: 5px;
+  box-shadow: 0px 0px 0px 1px #3b74ba;
+  border-radius: 4px;
+}
+
+input[type="submit"]{
+  padding: 10px 20px;
+  border: none;
+  background: #3b74ba;
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+@media(max-width:768px){
+  .continar{
+       width: 350px;
+  }
+}
+/*  End card */
